@@ -7,7 +7,7 @@
 # }
 
 def select_winner(passengers)
-  passangers.each do |key, value|
+  passengers.each do |key, value|
     return key[value] if key[value].start_with?("A") && key == :suite_a
   end
 end
